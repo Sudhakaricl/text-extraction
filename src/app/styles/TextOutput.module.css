@@ -1,0 +1,40 @@
+/* TextOutput.module.css */
+
+.textOutputContainer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto; /* Ensures the component is centered and separated from others */
+  }
+  
+  .textOutputTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .textArea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    resize: vertical;
+    height: 200px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .textArea:focus {
+    outline: none;
+    border-color: #4e73df;
+    box-shadow: 0 0 8px rgba(78, 115, 223, 0.5);
+  }
+  

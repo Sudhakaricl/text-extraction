@@ -1,0 +1,83 @@
+/* FileUploader.module.css */
+
+.uploaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+  }
+  
+  .inputFile {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .selectLang {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .extractButton {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .extractButton:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .downloadButton {
+    background-color: #2980b9;
+    color: white;
+  }
+  
+  .downloadButton:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .downloadPDFButton {
+    background-color: #27ae60;
+    color: white;
+  }
+  
+  .downloadPDFButton:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  

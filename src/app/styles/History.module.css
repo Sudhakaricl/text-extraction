@@ -1,0 +1,42 @@
+.historyContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 500px;
+    margin: 30px auto; /* Centers the container horizontally */
+    text-align: center; /* Centers text inside the container */
+    display: flex; 
+    flex-direction: column; /* Stacks the elements vertically */
+    justify-content: center; /* Vertically centers the content inside the container */
+    align-items: center; /* Centers content horizontally */
+  }
+  
+  .historyTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .historyList {
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+  }
+  
+  .historyItem {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .historyItem:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.02);
+  }
+  
